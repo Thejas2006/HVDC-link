@@ -1,6 +1,6 @@
 # Monopolar HVDC-Link
 
-This project presents a low-power laboratory model of a **High Voltage DC (HVDC) link** implemented using a single-phase inverter–rectifier system controlled by SPWM (Sinusoidal Pulse Width Modulation).
+This project presents a low-power laboratory model of a **12v High Voltage DC (HVDC) link** implemented using a single-phase inverter–rectifier system controlled by SPWM (Sinusoidal Pulse Width Modulation).
 
 The setup demonstrates the basic operating principle of an HVDC bus, including power conversion, isolation, and gate driving, suitable for educational and prototyping purposes.
 
@@ -35,28 +35,9 @@ The inverter is driven using complementary SPWM signals with dead-band insertion
 | Resistors | Gate and signal conditioning |
 | Capacitors | DC-link smoothing |
 | Breadboard | Prototype assembly |
+| 230v/12v step down transformer |  power conversion  |
+| Diodes (×4)| full bridge rectifier |
 
----
-
-### Features
-
-- Single-phase SPWM-based inverter
-- Dead-time insertion for MOSFET protection
-- Opto-isolated gate drive using TLP251
-- Low-power HVDC link demonstration
-- Modular design suitable for scaling and control experiments
-
----
-
-### Applications
-
-- HVDC transmission concept demonstration  
-- Power electronics education  
-- Inverter control and modulation studies  
-- Isolation and gate-driver design practice  
-- DC-link dynamics analysis  
-
----
 
 ### Author
 
