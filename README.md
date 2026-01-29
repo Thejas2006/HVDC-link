@@ -13,6 +13,7 @@ The implemented system consists of:
 - A DC-link capacitor for smoothing and energy storage
 - A single-phase inverter stage controlled using SPWM
 - Optical isolation for safe gate driving
+- Frequency control can be done by changing the sineFreq in esp32 code. 
 
 The inverter is driven using complementary SPWM signals with dead-band insertion to prevent shoot-through.
 
@@ -38,9 +39,4 @@ The inverter is driven using complementary SPWM signals with dead-band insertion
 | 230v/12v step down transformer |  power conversion  |
 | Diodes (×4)| full bridge rectifier |
 
-
-### Author
-
-Thejas  
-Electronics Engineering  
 
